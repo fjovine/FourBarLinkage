@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FourBarLinkage/HttpFaviconResponder.cs">
+    <Files>
+      <File FileName="FourBarLinkage/Program.cs" Line="76" Column="76" />
+      <File FileName="FourBarLinkage/HttpAnimationResponder.cs" Line="30" Column="30" />
+      <File FileName="FourBarLinkage/OctaveConfigurationComputer.cs" Line="76" Column="76" />
+      <File FileName="FourBarLinkage/IHttpResponder.cs" Line="35" Column="35" />
+      <File FileName="FourBarLinkage/HtmlResponder.cs" Line="53" Column="53" />
+      <File FileName="FourBarLinkage/HttpFaviconResponder.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
