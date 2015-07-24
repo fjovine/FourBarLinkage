@@ -11,5 +11,13 @@ a Web Server in C# that
 * creates an html page on the fly that shows the animation executed by javascript embedded code.
 * sends the page back to the client computer.
 
+# Installation
+The provided solution can be compiled and run under linux/MonoDevelop and supposes the octave packages is installed.
+It should be usable on Windows as well, directly compilable under VisualStudio but needing minor modifications to the **PlaneFourBarLinkage.OctaveConfigurationComputer** to select the octave executable.
 
+# User manual
+The server runs as a console app and connects to the TCP/IP port 1234 responding to the HTTP protocol.
 
+Once che command line is executing, open a browser to http://localhost:1234/ to show a web page similar to the following.
+
+![fig1](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_01.png)
