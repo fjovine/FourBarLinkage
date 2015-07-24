@@ -39,3 +39,17 @@ The top bar contains
 hyperlink simply shows the simulation without control fields for documentin porposes.
 
 ![fig2](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_02.png)
+
+This figure shows additional geometrical elements, as they are referenced by the theretical description.
+
+|    | Description
+|----|------------
+| V  | Trajectory of the left rotating hinge, it can be the whole circumference or arcs of it 
+|    | symmetrical with respect to the ground bar
+| IV | Trajectory of the right rotating hinge, it can be the whole circumference or arcs of it 
+|    | symmetrical with respect to the ground bar
+| P  | The coordinate system integral to the floating bar connecting the two rotating hinges
+|    | determines the point P (blue in the figure) that moves as the four-bar linkage moves on the trajectory shown.
+
+# Known bugs
+In some configuration, notably when the floating bar is aligned with one of the rotating bars, the numerical algorithm is instable due to numerical errors and this that turns into oscillations of the blue trajectory.
