@@ -18,7 +18,7 @@ It should be directly usable on Windows as MonoDevelop solutions can be compiled
 # User manual
 The server runs as a console app and connects to the TCP/IP port 1234 responding to the HTTP protocol.
 
-Once che command line is executing, open a browser to http://localhost:1234/ and a web page similar to the following will be loaded.
+Once launched, open a browser to http://localhost:1234/ and a web page similar to the following will be loaded.
 
 ![fig1](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_01.png)
 
@@ -49,4 +49,4 @@ This figure shows additional geometrical elements.
 | P  | The coordinate system integral to the floating bar (connecting the two rotating hinges) determines the point P (blue in the figure) that moves on the trajectory shown following the linkage displacement.
 
 # Known bugs
-In some configuration, notably when the floating bar is aligned with one of the rotating bars, the numerical algorithm is instable due to numerical errors and this that turns into oscillations of the blue trajectory.
+In some configuration, notably when the floating bar is aligned with one of the rotating bars, the numerical algorithm shows instability and this turns into oscillations of the blue trajectory.
