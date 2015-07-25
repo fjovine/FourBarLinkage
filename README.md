@@ -12,13 +12,13 @@ a Web Server in C# that
 * sends the page back to the client computer where the script shows the animation.
 
 # Installation
-The provided solution can be compiled and run under linux/MonoDevelop. Prerequisite is that the octave packages is installed.
-It should be directly usable on Windows as MonoDevelop solutions can be compiled under VisualStudio. Probably it needs minor modifications to the **PlaneFourBarLinkage.OctaveConfigurationComputer** class to spawn the Windows version of octave.
+The provided solution can be compiled and run under linux/MonoDevelop. Prerequisite is that the octave package is installed.
+It should be directly usable on Windows as MonoDevelop solutions can be compiled under VisualStudio. Probably it needs minor modifications to the **PlaneFourBarLinkage.OctaveConfigurationComputer** class to launch the Windows version of octave.
 
 # User manual
 The server runs as a console app and connects to the TCP/IP port 1234 responding to the HTTP protocol.
 
-Once launched, open a browser to http://localhost:1234/ and a web page similar to the following will be loaded.
+Once launched, open a browser to http://localhost:1234/ and a web page will be loaded similar to the following.
 
 ![fig1](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_01.png)
 
