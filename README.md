@@ -5,26 +5,26 @@ Animation of a four-bar linkage
 
 This package simulates the displacement of a four-bar linkage (https://en.wikipedia.org/wiki/Four-bar_linkage) creating 
 a Web Server in C# that 
-* receives the linkage parameters (side length and more)
+* receives the linkage parameters (side length and more) from the client
 * creates an octave script (https://en.wikipedia.org/wiki/GNU_Octave) and launches the octave interpreter to execute it
 * receives the computed results (time dependent state) 
-* creates an html page on the fly that shows the animation executed by javascript embedded code.
-* sends the page back to the client computer.
+* creates an html page on the fly containing javascript embedded code.
+* sends the page back to the client computer where the script shows the animation.
 
 # Installation
-The provided solution can be compiled and run under linux/MonoDevelop and supposes the octave packages is installed.
-It should be usable on Windows as well, directly compilable under VisualStudio but needing minor modifications to the **PlaneFourBarLinkage.OctaveConfigurationComputer** to select the octave executable.
+The provided solution can be compiled and run under linux/MonoDevelop. Prerequisite is that the octave packages is installed.
+It should be directly usable on Windows as MonoDevelop solutions can be compiled under VisualStudio. Probably it needs minor modifications to the **PlaneFourBarLinkage.OctaveConfigurationComputer** class to spawn the Windows version of octave.
 
 # User manual
 The server runs as a console app and connects to the TCP/IP port 1234 responding to the HTTP protocol.
 
-Once che command line is executing, open a browser to http://localhost:1234/ to show a web page similar to the following.
+Once che command line is executing, open a browser to http://localhost:1234/ and a web page similar to the following will be loaded.
 
 ![fig1](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_01.png)
 
 The top bar contains
 
-* I - Four text fields to select the sizes of the four bars, namely 
+* I - Four text fields to set the size of the four bars, namely:
 
 |   | Description                    |
 |---|--------------------------------|
@@ -33,23 +33,20 @@ The top bar contains
 | c | size of the right rotating bar |
 | d | size of the fixed ground bar   |
 
-* II - The coordinate of a point integral to the floating bar (with respect to a system of coordinates moving with it
-* III - + and - buttons to zoom in and out the pigrures
-* IV - Hyperlinks to show four predefined configurations following the Grashof classification (see wiki) The "Pic"
-hyperlink simply shows the simulation without control fields for documentin porposes.
+* II - The coordinate of a point integral to the floating bar (with respect to a system of coordinates xy that can be seen in the following picture)
+* III - Buttons (+/-) to zoom in and out the animation
+* IV - Hyperlinks to show some predefined configurations following the Grashof classification (see wiki) The "Pic"
+hyperlink simply shows the simulation without control fields. (Useful for documentation).
 
 ![fig2](https://github.com/fjovine/FourBarLinkage/blob/master/Doc/FBL_02.png)
 
-This figure shows additional geometrical elements, as they are referenced by the theretical description.
+This figure shows additional geometrical elements.
 
 |    | Description
 |----|------------
-| V  | Trajectory of the left rotating hinge, it can be the whole circumference or arcs of it 
-|    | symmetrical with respect to the ground bar
-| IV | Trajectory of the right rotating hinge, it can be the whole circumference or arcs of it 
-|    | symmetrical with respect to the ground bar
-| P  | The coordinate system integral to the floating bar connecting the two rotating hinges
-|    | determines the point P (blue in the figure) that moves as the four-bar linkage moves on the trajectory shown.
+| V  | Trajectory of the left rotating hinge. It can be the whole circumference or symmetrical arcs with respect to the ground bar
+| IV | Trajectory of the right rotating hinge. It can be the whole circumference or symmetrical arcs with respect to the ground bar
+| P  | The coordinate system integral to the floating bar (connecting the two rotating hinges) determines the point P (blue in the figure) that moves on the trajectory shown following the linkage displacement.
 
 # Known bugs
 In some configuration, notably when the floating bar is aligned with one of the rotating bars, the numerical algorithm is instable due to numerical errors and this that turns into oscillations of the blue trajectory.
