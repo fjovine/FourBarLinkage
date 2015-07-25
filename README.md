@@ -50,3 +50,8 @@ This figure shows additional geometrical elements.
 
 # Known bugs
 In some configuration, notably when the floating bar is aligned with one of the rotating bars, the numerical algorithm shows instability and this turns into oscillations of the blue trajectory.
+
+# Additional documentation
+
+Maths used https://github.com/fjovine/FourBarLinkage/blob/master/Doc/Math.pdf
+Demo page http://www.hilab.it/FBL/demo.php
