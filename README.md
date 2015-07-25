@@ -1,5 +1,5 @@
 # FourBarLinkage
-Animation of a four-bar linkage [Demo page http://www.hilab.it/FBL/FBLDemo/FBLDemo.html}
+Animation of a four-bar linkage [Review of interesting cases http://www.hilab.it/FBL/FBLDemo/FBLDemo.html}
 
 ![MainScreen](http://www.hilab.it/FBL)
 
