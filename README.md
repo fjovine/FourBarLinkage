@@ -29,12 +29,12 @@ The top bar contains
 |   | Description                    |
 |---|--------------------------------|
 | a | size of the left rotating bar  |
-| b | size if the floating bar       |
+| b | size of the floating bar       |
 | c | size of the right rotating bar |
 | d | size of the fixed ground bar   |
 
-* II - The coordinate of a point integral to the floating bar (with respect to a system of coordinates xy that can be seen in the following picture)
-* III - Buttons (+/-) to zoom in and out the animation
+* II - The coordinate of point P integral to the floating bar (with respect to a system of coordinates xy that can be seen in the following picture)
+* III - Buttons (+/-) to zoom the animation in and out
 * IV - Hyperlinks to show some predefined configurations following the Grashof classification (see wiki) The "Pic"
 hyperlink simply shows the simulation without control fields. (Useful for documentation).
 
