@@ -1,5 +1,5 @@
 # FourBarLinkage
-Animation of a four-bar linkage
+Animation of a four-bar linkage [Demo page http://www.hilab.it/FBL/FBLDemo/FBLDemo.html}
 
 ![MainScreen](http://www.hilab.it/FBL)
 
@@ -55,4 +55,4 @@ In some configuration, notably when the floating bar is aligned with one of the 
 
 Maths used https://github.com/fjovine/FourBarLinkage/blob/master/Doc/Math.pdf
 
-Demo page http://www.hilab.it/FBL/demo.php
+Demo page http://www.hilab.it/FBL/FBLDemo/FBLDemo.html
