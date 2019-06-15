@@ -55,4 +55,4 @@ In some configuration, notably when the floating bar is aligned with one of the 
 
 Maths used https://github.com/fjovine/FourBarLinkage/blob/master/Doc/Math.pdf
 
-Demo page http://www.hilab.it/FBL/FBLDemo/FBLDemo.html
+Demo page http://www.fjmessgeraete.ch/FBL/FBLDemo/FBLDemo.html
