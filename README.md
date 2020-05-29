@@ -1,7 +1,7 @@
 # FourBarLinkage
 Animation of a four-bar linkage [Review of interesting cases http://www.fjmessgeraete.ch/FBL/FBLDemo/FBLDemo.html}
 
-![MainScreen](http://www.fjmessgeraete.ch/FBL)
+![MainScreen](http://www.fjmessgeraete.ch/FBL/FBL_Intro.gif)
 
 This package simulates the displacement of a four-bar linkage (https://en.wikipedia.org/wiki/Four-bar_linkage) creating 
 a Web Server in C# that 
